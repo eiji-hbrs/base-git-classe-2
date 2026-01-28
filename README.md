@@ -13,12 +13,20 @@ Initialisez Git :
     git init
 
 Cela crée un dossier caché .git.
-Ajoutez vos fichiers : 
+
+
+Ajoutez des fichiers.
+
+Regardez l'état :
+
+    git status
+
+Ajoutez vos fichiers en staged de git : 
 
     git add .
 
 
-Effectuez votre premier cliché (snapshot) : 
+Effectuez votre premier sauvegarde : 
 
     git commit -m "Initial commit"
 
@@ -117,6 +125,7 @@ Le fichier `README.md` : C'est la vitrine de votre projet. Il doit expliquer ce 
 
 Le fichier `.gitkeep` dans un dossier permet de mettre un dossier vide sur `github`, car `git` ne suit pas les dossiers vides.
 
+---
 
 ## Git et Github pour votre projet d'équipe
 
